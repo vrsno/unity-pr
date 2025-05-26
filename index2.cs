@@ -13,14 +13,22 @@ namespace HelloWorld
             // var multiplicacion = valor * valor2;
             // var division = valor / valor2;
 
-            int valor1 = 34;
-            int valor2 = 4;
+            //int valor1 = 34;
+            //int valor2 = 4;
             //valor1 += valor2; // Suma
             //valor1 -= valor2; // resta
             //valor1 *= valor2; // Multiplicación
             //valor1 /= valor2; // División
-            valor1 %= valor2; // Módulo-residuo
-            Console.WriteLine("Valor1 después de asignacion: " + valor1);
+            // %= valor2; // Módulo-residuo
+
+
+            //comparacion, tipo y relacionales
+            int valor1 = 34;
+            int valor2 = 4;
+            var data = valor1 <= valor2; // Menor o igual que
+
+
+            Console.WriteLine(data);
             Console.ReadLine();
         }
     }
