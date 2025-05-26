@@ -23,10 +23,15 @@ namespace HelloWorld
 
 
             //comparacion, tipo y relacionales
+            // int valor1 = 34;
+            // int valor2 = 4;
+            // var data = valor1 <= valor2; // Menor o igual que
+            // var data = valor1 >= valor2; // Mayor o igual que
+
             int valor1 = 34;
             int valor2 = 4;
-            var data = valor1 <= valor2; // Menor o igual que
-
+            //var data = valor1 == valor2; // igualdad
+            //var data = valor1 != valor2; // desigualdad
 
             Console.WriteLine(data);
             Console.ReadLine();
